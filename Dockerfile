@@ -5,4 +5,4 @@ FROM nginx
 MAINTAINER Alexandre Rieux
 
 # Copy custom configuration file from the current directory
-COPY index.conf /etc/nginx/index.conf
+COPY nginx.conf /etc/nginx/nginx.conf
